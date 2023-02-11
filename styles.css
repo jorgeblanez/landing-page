@@ -35,6 +35,7 @@ a{
     display: flex;
     padding: 100px 0;
     justify-content: space-around;
+    background-color: #1F2937;
 }
 
 .stacked-content{
@@ -46,5 +47,26 @@ a{
 
 .text{
     flex-wrap: wrap;
-    width: 300px;
+    width: 400px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.title{
+    flex-wrap:wrap;
+    width: 400px;
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8
+}
+
+.buttons{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+    margin:0;
+    border-style: none;
 }
