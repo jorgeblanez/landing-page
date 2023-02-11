@@ -70,3 +70,32 @@ a{
     margin:0;
     border-style: none;
 }
+
+.middle-content,
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.img-cards{
+    width: 250px;
+    height: 250px;
+}
+
+#info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.subtext{
+    color: gray;
+}
