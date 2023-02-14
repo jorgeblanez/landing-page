@@ -79,6 +79,11 @@ a{
     align-items: center;
 }
 
+.middle-content{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
 .cards{
     display: flex;
     justify-content: center;
