@@ -86,8 +86,7 @@ a{
 
 .cards{
     display: flex;
-    justify-content: center;
-    gap: 36px;
+    gap: 120px;
 }
 
 .img-cards{
@@ -103,4 +102,25 @@ a{
 
 .subtext{
     color: gray;
+}
+
+.quotes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    width: 400px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.sign{
+    padding-left: 250px;
+    font-size:24px;
+    font-weight: bold;
 }
