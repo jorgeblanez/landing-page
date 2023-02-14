@@ -64,11 +64,12 @@ a{
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bolder;
     border-radius: 8px;
     padding: 10px;
     margin:0;
-    border-style: none;
+    border-color: #1F2937;
+    border-style: solid;
 }
 
 .middle-content,
@@ -123,4 +124,27 @@ a{
     padding-left: 250px;
     font-size:24px;
     font-weight: bold;
+}
+
+.actionBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callToAction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    padding: 40px 100px;
+    margin: 100px 0px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.actionTitle{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
